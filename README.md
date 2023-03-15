@@ -72,4 +72,4 @@ To execute a single feature:
 ```behave ./tests/features/<feature name>.feature```
 
 ## Issues
-Password for test account is currently exposed with minimal encryption.
+Password for test account is currently exposed with minimal encryption. Ideally, there would be a 1Password vault, for example, with the secrets.
