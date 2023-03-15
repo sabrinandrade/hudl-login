@@ -40,6 +40,8 @@ On the Terminal, execute the following command:
 
 If there are no results, go to: https://www.python.org/downloads/ and download the latest Python version. Install Python 3.*, and add Python to your system's PATH.
 
+Keep in mind that, if using MacOS, the command should be `python3` instead of `python`.
+
 ### Selenium
 After installing Python, run the following command on the Terminal to install Selenium:
 
