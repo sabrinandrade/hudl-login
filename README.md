@@ -14,6 +14,7 @@ Second assumption is that all other data tests should have been performed on low
 
 Points to consider:
 * Password reset cannot be fully automated, and would be faster to perform it manually than automating only half of the process.
+* Since the only login available was a regular login, no tests were performed on the SSO option.
 * Usability, performance and security tests were not performed during this exercise, but would need to be considered before PROD deployment.
 * Exploratory testing should still be performed before PROD deployment, e.g. login/logout while accessing the system through different tabs.
 
