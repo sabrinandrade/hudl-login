@@ -70,3 +70,6 @@ Then, inside the project folder, execute the following command:
 To execute a single feature:
 
 ```behave ./tests/features/<feature name>.feature```
+
+## Issues
+Password for test account is currently exposed with minimal encryption.
