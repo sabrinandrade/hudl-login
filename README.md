@@ -58,7 +58,7 @@ If you want to run the tests from command line, Behave needs to be installed. Fr
 ```python -m install behave```
 
 ## Running the Tests
-The tests can be run from PyCharm. For that, navigate to `./tests/acceptance` folder, where all the features are located. 
+The tests can be run from PyCharm. For that, navigate to `./tests/features` folder, where all the features are located. 
 Open a feature, and click on the `>>` right beside the Scenario name to run all tests, or on the `>>` right beside the test 
 to run only a specific case.
 
@@ -68,8 +68,8 @@ In order to run the tests from command line, open the Terminal, `cd` to the proj
 
 Then, inside the project folder, execute the following command:
 
-```behave ./tests/acceptance/```
+```behave ./tests/features/```
 
 To execute a single feature:
 
-```behave ./tests/acceptance/<feature name>.feature```
+```behave ./tests/features/<feature name>.feature```
