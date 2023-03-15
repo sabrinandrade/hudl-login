@@ -10,7 +10,7 @@ The goal of this exercise is to automate tests for a Login Page. Only some Busin
 * Clear Cookies
 
 These tests were picked assuming they would be listed as Acceptance Criteria on the ticket. 
-Second assumption is that all other data tests should have been performed on lower levels due to the cost of implementing system tests (email format, missing data, ...), and as a third assumption, there are contract tests in place as well.
+Second assumption is that all other data tests should have been performed on lower levels due to the cost of implementing system tests (email format, missing data, ...), the developers should have written all the unit and integration tests. And as a third assumption, there are contract tests in place as well.
 
 Points to consider:
 * Password reset cannot be fully automated, and would be faster to perform it manually than automating only half of the process.
