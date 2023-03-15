@@ -24,6 +24,7 @@ Points to consider:
 * Put this project into a CI/CD pipeline.
 * Refactor to avoid duplicated code.
 * Change some asserts to find a specific element on screen in order to confirm current page.
+* Tests were written considering the only available test account, improve that to be able to handle several logins.
 
 ## Getting Started
 This project requires the use of Selenium Webdriver, Python 3.\*, Behave and Gherkin.
