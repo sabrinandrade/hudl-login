@@ -40,7 +40,7 @@ On the Terminal, execute the following command:
 
 If there are no results, go to: https://www.python.org/downloads/ and download the latest Python version. Install Python 3.*, and add Python to your system's PATH.
 
-Keep in mind that, if using MacOS, the command should be `python3` instead of `python`.
+Keep in mind that, if using MacOS, the command should be `python3` instead of `python` in all cases.
 
 ### Selenium
 After installing Python, run the following command on the Terminal to install Selenium:
@@ -50,7 +50,7 @@ After installing Python, run the following command on the Terminal to install Se
 Download chromedriver (https://chromedriver.chromium.org/downloads) and add it to the system's PATH.
 
 ### Behave
-If you want to run the tests from command line, Behave needs to be installed. From command line:
+From command line:
 
 ```python -m install behave```
 
