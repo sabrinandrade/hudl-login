@@ -1,53 +1,54 @@
 # Hudl Login Exercise
 
 ## Overview
-The goal of this exercise is to automate tests for a Login Page. Only some Business flows were automated, meaning:
-* Navigation From Hudl Main Page
-* Login With Valid Data
-* Login With Remember Me Option
-* Login With Invalid Data
+The goal of this exercise is to automate tests for a Login Page. Only some main Business flows were automated, meaning:
+* Navigation From Hudl Main Page to Log In Page
+* Log In With Valid Data
+* Log In With Remember Me Option
+* Log In With Invalid Data
 * Logout
-* Clear Cookies
+* Clear Cookies After Log In
 
-These tests were picked assuming they would be listed as Acceptance Criteria on the ticket. 
-Second assumption is that all other data tests should have been performed on lower levels due to the cost of implementing system tests (email format, missing data, ...), the developers should have written all the unit and integration tests. And as a third assumption, there are contract tests in place as well.
+These tests were chosen assuming they would be listed as Acceptance Criteria on the ticket. 
+Second assumption is that all other data tests should have been performed on lower levels due to the cost of implementing system tests (email format, special characters, missing data, ...), the developers should have written all the unit and integration tests. And as a third assumption, there are contract tests in place as well.
 
 Points to consider:
 * Password reset cannot be fully automated, and would be faster to perform it manually than automating only half of the process.
-* Other tests that where not performed during this exercise, but would need to be considered before PROD deployment: usability, security, and performance.
+* Usability, performance and security tests were not performed during this exercise, but would need to be considered before PROD deployment.
+* Exploratory testing should still be performed before PROD deployment, e.g. login/logout while accessing the system through different tabs.
 
 ## Next Technical Steps
 * Perform cross-browser testing.
 * Use try/catch blocks when searching for an element.
 * Put this project into a CI/CD pipeline.
-* Refactor to avoid duplicate code.
-* Change some asserts to find a specific element on screen in order to confirm the page.
+* Refactor to avoid duplicated code.
+* Change some asserts to find a specific element on screen in order to confirm current page.
 
 ## Getting Started
-This project requires the use of Selenium Webdriver, Python 3.*, Behave and Gherkin.
+This project requires the use of Selenium Webdriver, Python 3.\*, Behave and Gherkin.
 
 ### IDE
 As recommended IDE, download PyCharm Professional edition: https://www.jetbrains.com/pycharm/
 
 After installing you can set-up a trial account.
 
-Note: Professional edition is needed in order to have the links between the steps and the feature file (https://www.jetbrains.com/help/pycharm/creating-step-definition.html).
+Note: Professional edition is needed in order to have the links between the steps and the feature files (https://www.jetbrains.com/help/pycharm/creating-step-definition.html).
 
 ### Python
 On the Terminal, execute the following command:
 
 ```python --version```
 
-If there are no results, go to: https://www.python.org/downloads/ and download the latest Python version. Install Python 3.*, and add Python to your system's PATH.
+If there are no results, go to: https://www.python.org/downloads/ and download the latest Python version. Install Python 3.\*, and add Python to your system's PATH.
 
-Keep in mind that, if using MacOS, the command should be `python3` instead of `python` in all cases.
+Keep in mind that, if using MacOS, the command should be `python3` instead of `python` in all commands needed to run the tests.
 
 ### Selenium
 After installing Python, run the following command on the Terminal to install Selenium:
 
 ```python -m pip install selenium```
 
-Download chromedriver (https://chromedriver.chromium.org/downloads) and add it to the system's PATH.
+Download chromedriver (https://chromedriver.chromium.org/downloads), and add it to the system's PATH.
 
 ### Behave
 From command line:
