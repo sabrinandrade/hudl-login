@@ -47,11 +47,6 @@ After installing Python, run the following command on the Terminal to install Se
 
 Download chromedriver (https://chromedriver.chromium.org/downloads) and add it to the system's PATH.
 
-### Gherkin
-To install Gherkin, run the following command on the Terminal:
-
-```python -m pip install gherkin```
-
 ### Behave
 If you want to run the tests from command line, Behave needs to be installed. From command line:
 
